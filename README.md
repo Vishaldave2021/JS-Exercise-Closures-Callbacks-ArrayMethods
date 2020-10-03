@@ -41,7 +41,7 @@ Find the file `index.js` and complete the tasks until your tests are passing.
 
 Edit the `ReadMe` file with your answers.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). Closure means that an inner function always has access to the variables and parameters of its outer function, even after the outer function has returned.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,9 +63,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+ it's in personal dice because it has a function inside a function
 
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+the function being run is always the same. the number could because it is is being randomly each time it's invoked.
+
+c. What is the lexical scope of `newRoll`?  
+personalDice
 ### Task 3 - Stretch Goals
 
 After you have completed the requirements, **create** a new file called `stretch.js` and practice more with closures. There are no tests for these problems.
@@ -104,6 +108,6 @@ addSix(21); // returns 27
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull request
-- [ ] Your Team Lead will count the project as complete by merging the branch back into master
+- [X] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Add your Team Lead as a reviewer on the pull request
+- [X] Your Team Lead will count the project as complete by merging the branch back into master
